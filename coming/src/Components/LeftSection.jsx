@@ -70,18 +70,7 @@ export default function LeftSection() {
           </p>
         </div>
 
-        <footer className="w-full mt-9 text-center">
-          <p class="attribution">
-            Challenge by{" "}
-            <a
-              href="https://www.frontendmentor.io?ref=challenge"
-              target="_blank"
-            >
-              Frontend Mentor
-            </a>
-            . Coded by <a href="https://www.frontendmentor.io/profile/IndranjanaChatterjee">Indranjana Chatterjee</a>.
-          </p>
-        </footer>
+        
       </div>
     </div>
   );
