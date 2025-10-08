@@ -15,7 +15,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 ### Links
 
 - Solution URL: [solution URL](https://github.com/IndranjanaChatterjee/Base-Apparel-coming-soon-page)
-- Live Site URL: [live site URL](https://social-proof-section-brown-three.vercel.app/)
+- Live Site URL: [live site URL](https://base-apparel-coming-soon-page-eight-mauve.vercel.app/)
 
 
 
