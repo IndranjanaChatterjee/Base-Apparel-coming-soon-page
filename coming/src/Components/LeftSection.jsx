@@ -23,7 +23,7 @@ export default function LeftSection() {
 
   return (
     <div className="h-screen w-full leftsection flex justify-center items-center">
-      <div className="flex flex-col justify-start items-start  md:w-[80%] h-[80%] my-24 md:ml-28">
+      <div className="flex flex-col justify-start items-start  md:w-[80%] h-[80%] my-24 md:ml-48">
         <div className="w-full md:flex justify-start items-center mb-24 md:visible hidden">
           <img src={head} alt="head" />
         </div>
@@ -36,13 +36,13 @@ export default function LeftSection() {
           </h1>
         </div>
 
-        <p className="text-gray-400 text-[0.95rem] md:w-[30rem] font-semibold mb-10 text-center md:text-left mx-3.5 md:mx-0">
+        <p className="text-[#f28e91] text-[0.95rem] md:w-[30rem] font-semibold mb-10 text-center md:text-left mx-3.5 md:mx-0">
           Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our
           launch deals.
         </p>
         <div className="flex flex-col justfy-center  items-start px-1 mb-2.5 w-full">
-          <div className="md:w-[30rem]  h-[3.5rem] border-solid border-2 border-gray-400  flex flex-row justify-between items-center pl-5  rounded-[2rem]">
+          <div className="md:w-[30rem]  h-[3.5rem] border-solid border-2 border-[#f28e91]  flex flex-row justify-between items-center pl-5  rounded-[2rem]">
             <input
               type="email"
               value={email}
@@ -57,7 +57,7 @@ export default function LeftSection() {
               className={`mr-[0.4rem] ${err ? "hidden" : "visible"}`}
             />
             <button
-              className="bg-black w-[8.5rem] h-[3.55rem] p-2 flex justify-center items-center btn rounded-[2rem] hover:cursor-pointer"
+              className="w-[8.5rem] h-[3.55rem] p-2 flex justify-center items-center btn rounded-[2rem] hover:cursor-pointer"
               onClick={validateEmail}
             >
               <img src={arrow} alt="" />
