@@ -16,7 +16,7 @@ function App() {
                 <img src={head} alt="head" />
                 </div>
         {/* RightSection will appear first on small screens, second on md+ */}
-        <div className="w-full md:w-[32%] order-1 md:order-2 h-full ">
+        <div className="w-full md:w-[50%] order-1 md:order-2 h-full ">
           <RightSection />
         </div>
 

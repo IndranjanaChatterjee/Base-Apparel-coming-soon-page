@@ -7,7 +7,7 @@ export default function RightSection() {
     <div className='h-full md:w-full w-full  flex justify-center items-center'>
       <picture>
         <source media="(max-width: 770px)" srcSet={heroMob} />
-        <img src={hero} alt="img" className='md:h-screen w-screen md:w-full' />
+        <img src={hero} alt="img" className='md:h-screen w-screen md:w-screen' />
       </picture>
     </div>
   )
