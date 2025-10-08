@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.leftsection{
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-size: cover;
+}
